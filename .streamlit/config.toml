@@ -1,0 +1,12 @@
+[theme]
+base = "light" # or "dark"
+
+[browser]
+gatherUsageStats = false
+
+[server]
+headless = true
+port = 8501 # Default Streamlit port
+
+# The wideMode option under [global] is deprecated or invalid.
+# st.set_page_config(layout="wide") in app.py handles this.
